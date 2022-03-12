@@ -12,10 +12,23 @@ public class Book {
 
     private String title;
     private String isbn;
+    @ManyToOne
+    private Publisher publishers;
 
     @ManyToMany
     @JoinTable(name = "author_book", joinColumns = @JoinColumn(name = "book_id"),inverseJoinColumns = @JoinColumn(name = "author_id"))
     private Set<Author> authors = new HashSet<>();
+
+
+    public Publisher getPublishers() {
+        return publishers;
+    }
+
+    public void setPublishers(Publisher publishers) {
+        this.publishers = publishers;
+    }
+
+
 
     public Book() {
     }
