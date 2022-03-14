@@ -1,6 +1,7 @@
 # springWebApp</br>
 It is simple app which display information about books. 
-
+Project is realized based on course:
+https://www.udemy.com/course/spring-framework-5-beginner-to-guru/
 ## Functions:</br>
 *Display information about books from database</br>
 *Display information about authors from database</br>
