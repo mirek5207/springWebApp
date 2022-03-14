@@ -12,7 +12,7 @@ https://www.udemy.com/course/spring-framework-5-beginner-to-guru/
 ## Technologies:
 *Java</br>
 *Spring Boot</br>
-*Spring MVC(Model View Controller)
+*Spring MVC(Model View Controller)</br>
 *JPA</br>
 *Database: H2</br>
 *Html(thymeleaf)</br>
